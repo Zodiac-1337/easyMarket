@@ -1,7 +1,8 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
 
-import { AppIcon } from "./AppIcon";
 import { SearchIcon } from "@/shared/assets/icons";
+
+import { AppIcon } from "./AppIcon";
 
 const meta = {
   title: "shared/AppIcon",

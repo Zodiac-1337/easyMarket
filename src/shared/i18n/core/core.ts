@@ -1,4 +1,5 @@
 import { getLang, onLangChange, type Lang } from "@/shared/config/i18n/lang";
+
 import type { CoreVocab } from "./en";
 
 type Loader = () => Promise<{ vocab: CoreVocab }>;

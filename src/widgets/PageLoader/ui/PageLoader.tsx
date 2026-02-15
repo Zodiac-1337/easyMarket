@@ -1,6 +1,8 @@
-import styles from "./PageLoader.module.scss";
 import { useTranslate } from "@/app/providers";
+
 import { Spinner } from "@/shared/ui";
+
+import styles from "./PageLoader.module.scss";
 
 export const PageLoader = () => {
   const t = useTranslate();

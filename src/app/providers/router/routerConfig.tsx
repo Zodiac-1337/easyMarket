@@ -1,8 +1,10 @@
 import type { RouteProps } from "react-router";
+
 import { HomePage } from "@/pages/Home";
 import { LoginPage } from "@/pages/Login";
-import { routePaths, AppRoutes } from "@/shared/config";
 import { NotFoundPage } from "@/pages/NotFound";
+
+import { routePaths, AppRoutes } from "@/shared/config";
 
 export const routerConfig: RouteProps[] = [
   {

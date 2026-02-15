@@ -1,7 +1,10 @@
-import { useTranslate } from "@/app/providers";
-import styles from "./Footer.module.scss";
-import { LogoIcon } from "@/shared/assets/icons";
 import { Link } from "react-router";
+
+import { useTranslate } from "@/app/providers";
+
+import { LogoIcon } from "@/shared/assets/icons";
+
+import styles from "./Footer.module.scss";
 
 export const Footer = () => {
   const t = useTranslate();

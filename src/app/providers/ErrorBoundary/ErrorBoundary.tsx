@@ -1,4 +1,5 @@
 import * as React from "react";
+
 import { PageError } from "@/widgets/PageError/ui/PageError.tsx";
 
 interface ErrorBoundaryProps {

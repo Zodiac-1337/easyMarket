@@ -1,3 +1,7 @@
+import { useNavigate } from "react-router-dom";
+
+import { useTranslate } from "@/app/providers";
+
 import {
   LogoIcon,
   MapPinIcon,
@@ -5,13 +9,12 @@ import {
   UsersIcon,
   ShoppingCartIcon,
 } from "@/shared/assets/icons";
-import styles from "./Header.module.scss";
+import { routePaths } from "@/shared/config";
 import { AppIcon, Button, Input } from "@/shared/ui";
+
+import styles from "./Header.module.scss";
 import { LanguageSwitcher } from "./LanguageSwitcher/LanguageSwitcher.tsx";
 import { ThemeSwitcher } from "./ThemeSwitcher/ThemeSwitcher.tsx";
-import { useNavigate } from "react-router-dom";
-import { routePaths } from "@/shared/config";
-import { useTranslate } from "@/app/providers";
 
 export const Header = () => {
   const navigate = useNavigate();

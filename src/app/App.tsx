@@ -1,5 +1,6 @@
-import { AppRouter } from "./providers";
 import { I18nProvider } from "@/app/providers/i18n";
+
+import { AppRouter } from "./providers";
 
 function App() {
   return (

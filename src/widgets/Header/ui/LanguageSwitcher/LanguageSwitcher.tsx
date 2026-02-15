@@ -1,7 +1,8 @@
 import { useLang } from "@/app/providers/i18n";
+
+import { EnglishIcon, RussiaIcon } from "@/shared/assets/icons";
 import { setLang } from "@/shared/config";
 import { AppIcon, Button } from "@/shared/ui";
-import { EnglishIcon, RussiaIcon } from "@/shared/assets/icons";
 
 export const LanguageSwitcher = () => {
   const lang = useLang();

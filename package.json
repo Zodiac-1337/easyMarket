@@ -8,6 +8,7 @@
     "build": "vite build",
     "lint:ts": "tsc",
     "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "lint:scss": "stylelint **/*.scss",
     "preview": "vite preview",
     "test:unit": "vitest",
@@ -24,6 +25,7 @@
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^5.0.1",
+    "@conarti/eslint-plugin-feature-sliced": "^1.0.5",
     "@eslint/js": "^9.39.1",
     "@storybook/addon-a11y": "^10.2.8",
     "@storybook/addon-docs": "^10.2.8",
@@ -41,6 +43,7 @@
     "chromatic": "^15.1.0",
     "eslint": "^9.39.1",
     "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-prettier": "^5.5.5",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
