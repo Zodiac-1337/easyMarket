@@ -13,7 +13,8 @@
     "test:unit": "vitest",
     "test:regression": "npx chromatic",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "format": "prettier . --write"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^6.9.1",

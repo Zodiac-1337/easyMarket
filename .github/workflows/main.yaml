@@ -36,6 +36,9 @@ jobs:
       - name: Unit tests
         run: npm run test:unit
 
+      - name: Format check
+        run: npm run format -- --check
+
       - name: Regression tests (Chromatic)
         uses: chromaui/action@v1
         with:
