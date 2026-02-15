@@ -21,7 +21,7 @@ jobs:
           node-version: "23.x"
           cache: "npm"
 
-      - name: Install dependecies
+      - name: Install dependencies
         uses: npm ci
 
       - name: TypeScript
