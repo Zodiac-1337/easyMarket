@@ -7,6 +7,7 @@
   border-color: #ccc #0000;
   animation: l16 1s infinite linear;
 }
+
 .spinner::before,
 .spinner::after {
   content: "";
@@ -15,15 +16,18 @@
   border: inherit;
   border-radius: 50%;
 }
+
 .spinner::before {
   border-color: var(--primary-color) #0000;
   animation: inherit;
   animation-duration: .5s;
   animation-direction: reverse;
 }
+
 .spinner::after {
   margin: 8px;
 }
+
 @keyframes l16 {
   100%{transform: rotate(1turn)}
 }
